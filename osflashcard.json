@@ -1,0 +1,592 @@
+[
+  {
+    "question": "What is an operating system?",
+    "answer": "A program that manages hardware."
+  },
+  {
+    "question": "What is a control program?",
+    "answer": "Part of the OS that manages the execution of user programs to prevent errors and improper use."
+  },
+  {
+    "question": "What is Moore's Law?",
+    "answer": "Transistors double every 18 months."
+  },
+  {
+    "question": "What is a bootstrap program?",
+    "answer": "The initial program that is stored on the ROM to assist starting up a computer."
+  },
+  {
+    "question": "What is an instruction register?",
+    "answer": "A typical instruction using the von Neumann structure first fetches an instruction from memory and stores that instruction."
+  },
+  {
+    "question": "What is Main memory?",
+    "answer": "A volatile storage device that is too small to store all programs and loses all contents on a power off."
+  },
+  {
+    "question": "What is Secondary storage?",
+    "answer": "Hard disk drives, flash drives, cloud drives."
+  },
+  {
+    "question": "What is Asymmetric Multiprocessing?",
+    "answer": "Each processor is assigned a specific task, and only one processor needs to access the data."
+  },
+  {
+    "question": "What is Symmetric Multiprocessing?",
+    "answer": "Every processor shares the load for every task, and every processor is self-scheduling."
+  },
+  {
+    "question": "What is a Blade server?",
+    "answer": "All processor boards, I/O, and networking boards stored in the same case."
+  },
+  {
+    "question": "What is a Clustered system?",
+    "answer": "Gathers together multiple CPUs."
+  },
+  {
+    "question": "What is Hot-standby Mode?",
+    "answer": "Asymmetric clustering where one machine is waiting for an exec signal."
+  },
+  {
+    "question": "What is a Mode bit?",
+    "answer": "A specific bit added to computer hardware to know if it's Kernel or User mode."
+  },
+  {
+    "question": "What are Privileged instructions?",
+    "answer": "A set of instructions that can only be accomplished in kernel mode."
+  },
+  {
+    "question": "What is Kernel Mode?",
+    "answer": "System calls being executed."
+  },
+  {
+    "question": "What is a Stack?",
+    "answer": "Sequentially ordered LIFO system for adding and removing items."
+  },
+  {
+    "question": "What is a Queue?",
+    "answer": "Sequentially ordered FIFO system for adding and removing items."
+  },
+  {
+    "question": "What is a Network?",
+    "answer": "A communication path between two or more systems."
+  },
+  {
+    "question": "What is Emulation?",
+    "answer": "When the source CPU is different from the target CPU."
+  },
+  {
+    "question": "What is Virtualization?",
+    "answer": "An operating system that is natively compiled for a particular CPU which is run within another CPU."
+  },
+  {
+    "question": "What are CLI, GUI, and Batch?",
+    "answer": "The three main user interfaces."
+  },
+  {
+    "question": "What is Shared Memory?",
+    "answer": "Two or more processes read and write to a section of memory that is shared by cooperating processes."
+  },
+  {
+    "question": "What is Message passing?",
+    "answer": "Packets of information in predefined formats are moved between processes by the operating system."
+  },
+  {
+    "question": "What is Command line interface?",
+    "answer": "Allows a user to directly type in commands."
+  },
+  {
+    "question": "What is system call interface?",
+    "answer": "This serves as a link to the system calls made available by the operating system."
+  },
+  {
+    "question": "What are Parameters?",
+    "answer": "These can be pushed or popped to the stack."
+  },
+  {
+    "question": "What is Process control?",
+    "answer": "This is where a debugger would be used. This is also where processes are locked and released."
+  },
+  {
+    "question": "What is File Manipulation?",
+    "answer": "This is where files are created, deleted, read, written, and repositioned."
+  },
+  {
+    "question": "What is Device Maintenance?",
+    "answer": "This requires many resources to execute -- main memory, disk drives, access to files, etc."
+  },
+  {
+    "question": "What is Information Maintenance?",
+    "answer": "This deals with transferring information from the user program to the operating system."
+  },
+  {
+    "question": "What is interprocess communication?",
+    "answer": "This uses the message-passing and shared-memory mechanism module to be facilitate communications between processes."
+  },
+  {
+    "question": "What is Protection?",
+    "answer": "This is the internal system to keep malfunctions and malicious software from happening to the system."
+  },
+  {
+    "question": "What are Create and Attach?",
+    "answer": "What are the two functions used in the shared-memory model?"
+  },
+  {
+    "question": "What are system utilities?",
+    "answer": "What is another name for system programs that provide a convenient environment for program development and execution?"
+  },
+  {
+    "question": "What is Registry?",
+    "answer": "This stores and retrieves configuration information."
+  },
+  {
+    "question": "What is Policy?",
+    "answer": "This determines what must be done. This is always changing."
+  },
+  {
+    "question": "What is Mechanism?",
+    "answer": "This determines how to do something. This rarely if ever changes."
+  },
+  {
+    "question": "What is Monolithic?",
+    "answer": "What system is the opposite of a smaller chunked, modular type of system?"
+  },
+  {
+    "question": "What is Layered?",
+    "answer": "What approach uses a modular type of system in multiple numbers starting from hardware all the way to the user interface?"
+  },
+  [
+  {
+    "question": "What is another approach to a modular type of system by stripping down non-essential components and implementing them as system/user level programs?",
+    "answer": "Microkernels"
+  },
+  {
+    "question": "This is the Mac OS X Kernel which is based partly on the Mach microkernel.",
+    "answer": "Darwin"
+  },
+  {
+    "question": "This is the best current methodology for OS design involving a kernel with a set of core components and links, including services via modules.",
+    "answer": "Loadable kernel modules"
+  },
+  {
+    "question": "This provides a layer of a variety of features for Apple's Cocoa and Aqua systems including support for cloud computing and databases.",
+    "answer": "Core services"
+  },
+  {
+    "question": "If a process fails, most operating systems write the error information to this.",
+    "answer": "Log file"
+  },
+  {
+    "question": "This is a capture of the memory of the process for later analysis.",
+    "answer": "Core dump"
+  },
+  {
+    "question": "Dtrace utilizes providers and consumers of these, and kernel structures keep track of all of these created.",
+    "answer": "Probes"
+  },
+  {
+    "question": "This periodically samples the instruction pointer to determine which code is being executed and show statistical trends but not individual activities.",
+    "answer": "Profiling"
+  },
+  {
+    "question": "These are performed when probes fire.",
+    "answer": "Enabling control blocs"
+  },
+  {
+    "question": "A program in execution",
+    "answer": "Process"
+  },
+  {
+    "question": "The program code used in a heap can also be called this.",
+    "answer": "Text section"
+  },
+  {
+    "question": "All the global variables from the data section and the dynamic memory called the head all are part of this thing in processes",
+    "answer": "Stack"
+  },
+  {
+    "question": "Executable files are stored in what kind of entity?",
+    "answer": "Passive"
+  },
+  {
+    "question": "What are the states in a Process Control Block?",
+    "answer": "New, Running, Waiting, Ready, Terminated"
+  },
+  {
+    "question": "What are all the components of the process control block?",
+    "answer": "Process state, Program counter, CPU Register, CPU-scheduling information, Memory-management information"
+  },
+  {
+    "question": "A current task being worked on",
+    "answer": "Thread"
+  },
+  {
+    "question": "Selects an available process for program execution on the CPU",
+    "answer": "Process scheduler"
+  },
+  {
+    "question": "A linked list is used to store processes from the job queue waiting to be dispatched called this",
+    "answer": "ready queue"
+  },
+  {
+    "question": "If a device is waiting for a particular I/O device, it is called this",
+    "answer": "device queue"
+  },
+  {
+    "question": "The long-term schedule pulls from this in order to load a process",
+    "answer": "mass storage device"
+  },
+  {
+    "question": "This pulls from the CPU schedule from among the processes that are ready to execute and allocates the CPU to one of them",
+    "answer": "short-term scheduler"
+  },
+  {
+    "question": "If a process is doing more I/O than computation, then it is called this",
+    "answer": "IO-bound process"
+  },
+  {
+    "question": "The medium term scheduler removed a process from memory and then reintroduces the process when needed is called",
+    "answer": "swapping"
+  },
+  {
+    "question": "A processes state is saved and restored by switching this during interrupts. This is also known as the register set, stacks, and private storage area.",
+    "answer": "context"
+  },
+  {
+    "question": "Most operating systems identify processes according to a unique integer number called a",
+    "answer": "pid or process identifier"
+  },
+  {
+    "question": "Zombie processes and orphans are normally not a problem if this operates properly, because it removes the parents and children in one batch",
+    "answer": "cascading termination"
+  },
+  {
+    "question": "If there is a limit on the producers and consumers in the shared-memory systems, it would be considered this",
+    "answer": "bounded buffer"
+  },
+  {
+    "question": "Each process that wants to communicate and needs to explicitly name the recipient and/or sender of communication will be using this",
+    "answer": "Direct communication"
+  },
+  {
+    "question": "If message passing using the matchmaker / rendezvous is asynchronous, then the process is",
+    "answer": "nonblocking"
+  },
+  {
+    "question": "Windows uses these two kinds of ports in their advanced local procedure calls (ALPCs)",
+    "answer": "connection ports, communication ports"
+  },
+  {
+    "question": "Larger messages being sent between the two windows ports must use this region of shared memory called this",
+    "answer": "Section object"
+  },
+  {
+    "question": "This is an endpoint for communication, which is not a port, because a port is just a number",
+    "answer": "socket"
+  },
+  {
+    "question": "Even if Windows uses anonymous pipes, every read-end pipe must have a",
+    "answer": "write-end pipe"
+  },
+  {
+    "question": "This allows a program to continue running even if part of it is blocked or is performing a lengthy operation",
+    "answer": "responsiveness"
+  },
+  {
+    "question": "Several different threads of activity can be shared within the same address space",
+    "answer": "resource sharing"
+  },
+  {
+    "question": "Threads share the resources of the process they belong to",
+    "answer": "economy"
+  },
+  {
+    "question": "Threads can be run in parallel on different processing cores",
+    "answer": "scalability"
+  },
+  {
+    "question": "Focus on distributing subsets of the same data across computing cores, which does not involve distributing threads",
+    "answer": "data parallelism"
+  },
+  {
+    "question": "Green threads are a Solaris library that focus on this model",
+    "answer": "many-to-one model"
+  },
+  {
+    "question": "This allows a user-level thread to be bound to a kernel three",
+    "answer": "two-level model"
+  },
+  {
+    "question": "Provides a programmer with the API for creating and managing threads",
+    "answer": "thread library"
+  },
+  {
+    "question": "These three systems use Pthreads (POSIX threads)",
+    "answer": "Linux, Unix, Solaris"
+  },
+  {
+    "question": "This is the transferring the creation and management of threading from the developer to the compilers",
+    "answer": "implicit threading"
+  },
+  {
+    "question": "Much like the job pool, this is a pool of tasks that wait to receive execution commands",
+    "answer": "thread pool"
+  },
+  {
+    "question": "Blocks of code that run in parallel",
+    "answer": "parallel regions"
+  },
+  {
+    "question": "A self-contained unit of work which is typically placed on the dispatch queue to wait for execution of its main queue or serial queue",
+    "answer": "block"
+  },
+      {
+    "question": "An event based notification in UNIX",
+    "answer": "signal"
+  },
+  {
+    "question": "The default signal handler is overridden using this action",
+    "answer": "user-defined signal handler"
+  },
+  {
+    "question": "When a target thread is terminated before it completes its specific task",
+    "answer": "thread cancellation"
+  },
+  {
+    "question": "This is the point where cancellation happens and the cleanup handler has signaled to removed all the thread's resources",
+    "answer": "cancellation point"
+  },
+  {
+    "question": "Where threads need their own special copy of certain data.",
+    "answer": "thread local storage (TLS)"
+  },
+  {
+    "question": "The structure that separates users and threads and is always tied to a kernel",
+    "answer": "lightweight process (LWP)"
+  },
+  {
+    "question": "When the kernel needs to let the application know of certain events, like when the application needs to know about scheduling threads using scheduler activation.",
+    "answer": "upcall"
+  },
+  {
+    "question": "A process that can be affected or affect other processes in the system",
+    "answer": "cooperating or nonpreemptive process"
+  },
+  {
+    "question": "When multiple processes run in parallel instead of using synchronous locking and the first process started may not be the first process that finishes",
+    "answer": "race condition"
+  },
+  {
+    "question": "Where the process may be changing common variables, updating the table, writing a file, and so on.",
+    "answer": "critical section"
+  },
+  {
+    "question": "The three requirements to solving the critical section problem, where there is a lack of cooperation between the entry section, exit section, and remainder section.",
+    "answer": "Mutual Exclusion, Progress, Bounded Waiting"
+  },
+  {
+    "question": "This is a concurrent algorithm for mutex that allows two or more processes to share a single-use resource without conflict",
+    "answer": "Peterson's Solution"
+  },
+  {
+    "question": "This describes one singular uninterruptible unit",
+    "answer": "atomic"
+  },
+  {
+    "question": "This describes when a mutex lock is in place and another process is 'busy waiting' or spinning up while waiting to use resources called a memory stall or this",
+    "answer": "spinlock"
+  },
+  {
+    "question": "This is a variable used to solve critical section problems. This is essentially having a process 'take a number and wait in line'",
+    "answer": "semaphore"
+  },
+  {
+    "question": "Indefinite blocking or starvation are both problems that deal with the issues that come when two or more processes are needing resources from the other before continuing",
+    "answer": "deadlock"
+  },
+  {
+    "question": "Priority-inheritance protocol is a solution to help solve challenges that arise when higher-priority cannot access resources because lower priority processes are using them",
+    "answer": "priority inversion"
+  },
+  {
+    "question": "The readers-writers problem describes how any reading processes can run, but only one can write at a time is described using the analogy of the",
+    "answer": "Dining Philosophers Problem"
+  },
+  {
+    "question": "Signal and wait and signal and continue are both types of this that help solve the dining-philosophers problem",
+    "answer": "monitors"
+  },
+  {
+    "question": "A priority number is used in this construct in order to solve which process should be resumed.",
+    "answer": "conditional-wait"
+  },
+  {
+    "question": "Threads synchronize according to several different mechanisms, including mutex locks, events, and timers.",
+    "answer": "dispatcher objects"
+  },
+  {
+    "question": "A user-mode mutex that can be often acquired and released without kernel intervention",
+    "answer": "critical-section object"
+  },
+  {
+    "question": "To prevent a priority inversion, these are organized according to priority inheritance protocol",
+    "answer": "turnstiles"
+  },
+  {
+    "question": "Unlike an unnamed POSIX semaphore, this type can be shared by multiple unrelated processes",
+    "answer": "named"
+  },
+  {
+    "question": "An atomic sequence of memory read-write sequences, whether for hardware or software",
+    "answer": "Memory transaction"
+  },
+  {
+    "question": "Java and C-based languages are all imperative or procedural languages that implement these types of algorithms",
+    "answer": "state-based"
+  },
+  {
+    "question": "In a CPU cycle of execution an I/O burst comes after this",
+    "answer": "CPU Burst"
+  },
+  {
+    "question": "When the dispatcher is switching context, or to user mode, or restarting the program the speed in which is does so is measured using",
+    "answer": "dispatch latency"
+  },
+  {
+    "question": "As opposed to the FCFS approach, this one knocks out all of the processes by how short the job is",
+    "answer": "shortest job first (SJF)"
+  },
+  {
+    "question": "SJF can use up too many resources for non-important small tasks, which leads to indefinite blocking or starvation, this is solved by using this",
+    "answer": "aging"
+  },
+  {
+    "question": "This allows a process to move between queues.",
+    "answer": "multilevel feedback queue"
+  },
+  {
+    "question": "This partitions the queues into multiple separate queues",
+    "answer": "multilevel queue"
+  },
+  {
+    "question": "A process specifies a specific subset of processors it can run on, as opposed to running on any processor",
+    "answer": "hard affinity"
+  },
+  {
+    "question": "This keeps the workload balanced among all the processors using push and pull migration",
+    "answer": "load balancing"
+  },
+  {
+    "question": "A task must be serviced by the deadline",
+    "answer": "hard real-time systems"
+  },
+  {
+    "question": "This provides no guarantee of when a critical real-time process with be run",
+    "answer": "soft-real time systems"
+  },
+  {
+    "question": "The amount of time that elapses from when the event occurs to when it is serviced",
+    "answer": "event latency"
+  },
+  {
+    "question": "The period of time from the arrival of an interrupt at the CPU to the start of the routine that services the interrupt.",
+    "answer": "interrupt latency"
+  },
+  {
+    "question": "Preemption of any process running in the kernel and release by low priority process of resources to high priority processes are two steps of this",
+    "answer": "The conflict phases of dispatch latency"
+  },
+  {
+    "question": "These need the CPU as constant intervals",
+    "answer": "Periodic"
+  },
+  {
+    "question": "Only allows processes to run that it knows can be done by the deadline",
+    "answer": "admission control"
+  },
+  {
+    "question": "Schedules periodic tasks using a static priority policy with preemption",
+    "answer": "rate-monotonic"
+  },
+  {
+    "question": "This dynamically assigns priorities according to the deadline",
+    "answer": "Earliest deadline first"
+  },
+  {
+    "question": "Scheduling classes, nice values, targeted latency, and virtual run times are part of this OS",
+    "answer": "Linux"
+  },
+  {
+    "question": "dispatchers, variable classes, real-time classes, and idle threads are all part of this OS",
+    "answer": "Windows"
+  },
+  {
+    "question": "Microsoft provides this based on the C++ framework",
+    "answer": "Concurrency Runtime"
+  },
+  {
+    "question": "This uses the given algorithm and system workload to produce a formula to number to evaluate performance",
+    "answer": "analytical evaluation"
+  },
+  {
+    "question": "This type of deterministic modeling computes utilization, average queue, wait time, etc",
+    "answer": "queueing-network analysis"
+  },
+  {
+    "question": "These are created by monitoring the real system and recording the events that happen for simulations",
+    "answer": "trace tapes"
+  },
+  {
+    "question": "To separate memory spaces, we need these two things to determine legal physical limits",
+    "answer": "base register, limit register"
+  },
+  {
+    "question": "The processes on the disk that are waiting to be brought into memory for execution",
+    "answer": "input queue"
+  },
+  {
+    "question": "Addresses are typically bound using these types of links",
+    "answer": "symbolic"
+  },
+  {
+    "question": "An address generated by the cpu",
+    "answer": "logical address"
+  },
+  {
+    "question": "An address seen by the memory unit, also known as a virtual address",
+    "answer": "physical address"
+  },
+  {
+    "question": "The virtual/logical and physical address spaces corresponds with the set of addresses called this",
+    "answer": "address space"
+  },
+  {
+    "question": "The run-time mapping from virtual to physical is done using the",
+    "answer": "memory mapping unit"
+  },
+  {
+    "question": "A routine is not loaded until it's called",
+    "answer": "dynamic loading"
+  },
+  {
+    "question": "System libraries that are linked to the user programs when the programs are run",
+    "answer": "dynamically linked libraries"
+  },
+  {
+    "question": "Where system libraries are treated like any other object module and combined by the loader into the binary program image",
+    "answer": "static linking"
+  },
+  {
+    "question": "This describes how other programs are linked before the new libraries are installed and continue to use older libraries",
+    "answer": "shared libraries"
+  },
+  {
+    "question": "When a process is swapped out of active execution, this is where it waits for a context switch with all the other processes in the ready queue",
+    "answer": "backing store"
+  },
+  {
+    "question": "Each process is contained in a single section of memory that is contiguous to the section containing the next process",
+    "answer": "contiguous memory allocation"
+  }
+]
+

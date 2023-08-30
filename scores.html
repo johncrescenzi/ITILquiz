@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html data-theme="forest">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Scores</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.2/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div class="hero">
+    <div class="hero-content text-center">
+      <div id="quizzes" class="grid flex-grow card rounded-box place-items-center">
+        <h1>Your Quiz Scores</h1>
+        <p>Correct Answers: <span id="correctAnswers" class="text-primary"></span></p>
+        <p>Percentage Correct: <span id="percentageCorrect" class="text-secondary"></span>%</p>
+        <button id="retryButton" class="btn btn-primary">Retry</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="scores.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

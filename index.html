@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html data-theme="forest">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ITILv4 Quiz</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.2/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div id="loader">
+    <span class="loading loading-ring loading-lg"></span>
+  </div>
+
+  <div class="hero bg-base-200">
+    <div class="hero-content text-center">
+      <div id="quizzes" class="grid flex-grow card rounded-box place-items-center">
+        <h1 class="text-5xl font-bold">Quizzes</h1>
+        <button class="btn btn-block btn-primary mb-4" onclick="startItilQuiz()">C176 ITIL</button>
+        <button class="btn btn-block btn-secondary mb-4" onclick="startOsQuiz()">C191 OS</button>
+        <div class="flex flex-col w-full border-opacity-50">
+  <div class="divider"></div>
+</div>
+        <h1 class="text-5xl font-bold">Flashcards</h1>
+        <button class="btn btn-block btn-primary mb-4" onclick="startOsFlashcards()">C191 OS</button>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="dropdown dropdown-top fixed bottom-4 left-4">
+    <label tabindex="0" id="dropdownBtn" class="btn m-1">Themes</label>
+    <ul tabindex="0" id="themeDropdown" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+      <li><a data-theme="cupcake">Cupcake</a></li>
+      <li><a data-theme="bumblebee">Bumblebee</a></li>
+      <li><a data-theme="emerald">Emerald</a></li>
+      <li><a data-theme="corporate">Corporate</a></li>
+      <li><a data-theme="synthwave">Synthwave</a></li>
+      <li><a data-theme="retro">Retro</a></li>
+      <li><a data-theme="cyberpunk">Cyberpunk</a></li>
+      <li><a data-theme="valentine">Valentine</a></li>
+      <li><a data-theme="halloween">Halloween</a></li>
+      <li><a data-theme="garden">Garden</a></li>
+      <li><a data-theme="forest">Forest</a></li>
+      <li><a data-theme="aqua">Aqua</a></li>
+      <li><a data-theme="lofi">Lofi</a></li>
+      <li><a data-theme="pastel">Pastel</a></li>
+      <li><a data-theme="fantasy">Fantasy</a></li>
+      <li><a data-theme="wireframe">Wireframe</a></li>
+      <li><a data-theme="black">Black</a></li>
+      <li><a data-theme="luxury">Luxury</a></li>
+      <li><a data-theme="dracula">Dracula</a></li>
+      <li><a data-theme="cmyk">CMYK</a></li>
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

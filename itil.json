@@ -1,0 +1,249 @@
+[
+  {
+    "question": "What is the focus of the 'Create, Deliver, and Support' module?",
+    "choices": ["Strategic Planning", "Service Value Stream Creation", "Governance and Compliance", "Customer Relationship Management"],
+    "correctIndex": 1,
+    "explanations": ["This module is not primarily focused on strategic planning but on the practical implementation of services.", "Correct answer.", "This module is not focused on governance and compliance but on creating services that deliver value.", "While customer relationships are important, this module primarily focuses on the mechanics of creating, delivering, and supporting services."]
+  },
+  {
+    "question": "Which ITIL concept deals with understanding the cost and value of services to the customers?",
+    "choices": ["Service Level Agreement", "Service Financial Management", "Service Desk", "Change Enablement"],
+    "correctIndex": 1,
+    "explanations": ["Service Level Agreements define quality standards, not financial aspects.", "Correct answer.", "Service Desk is for handling incidents and service requests, not for understanding financial value.", "Change Enablement is about managing changes in the service, not about understanding its financial value."]
+  },
+  {
+    "question": "What does ITIL stand for?",
+    "choices": ["Information Technology Information Library", "Information Technology Infrastructure Library", "International Technology Infrastructure Library", "Information Transfer Infrastructure Library"],
+    "correctIndex": 1,
+    "explanations": ["The correct acronym is 'Infrastructure', not 'Information'.", "Correct answer.", "'International' is incorrect; the correct word is 'Information'.", "'Transfer' is incorrect; the correct word is 'Technology'."]
+  },
+  {
+    "question": "What is the primary focus of the 'Drive Stakeholder Value' module?",
+    "choices": ["Delivering value", "Creating services", "Maintaining hardware", "Programming software"],
+    "correctIndex": 0,
+    "explanations": ["Correct answer.", "While creating services is important, this module focuses on delivering value to stakeholders.", "Maintaining hardware is not the primary focus; it's delivering value to stakeholders.", "Programming software is too specific and not the main focus of delivering value to stakeholders."]
+  },
+  {
+    "question": "Which value chain activity involves making sure that services are delivered and supported according to agreed specifications and stakeholders’ expectations?",
+    "choices": ["Obtain/Build", "Engage", "Deliver and Support", "Design and Transition"],
+    "correctIndex": 2,
+    "explanations": ["Obtain/Build is focused on acquiring or developing components for services.", "Engage is focused on interaction with stakeholders, not necessarily delivery and support.", "Correct answer.", "Design and Transition is more about the initial setup and modification of services, not ongoing delivery and support."]
+  },
+  {
+    "question": "Which role is generally responsible for overseeing the Incident Management process?",
+    "choices": ["Service Owner", "Process Owner", "Incident Manager", "Change Manager"],
+    "correctIndex": 2,
+    "explanations": ["Service Owner is responsible for a specific service, not specifically for incidents.", "Process Owner is a generic term; Incident Manager is the role specialized in overseeing Incident Management.", "Correct answer.", "Change Manager is focused on changes, not on incidents."]
+  },
+  {
+    "question": "What is a known error?",
+    "choices": ["An issue for which the root cause is unknown", "An issue for which a workaround has been identified", "An issue that is not documented", "An issue that has been escalated"],
+    "correctIndex": 1,
+    "explanations": ["A known error has an identified root cause and often a workaround.", "Correct answer.", "A known error is by definition documented, that's why it's 'known'.", "Escalation doesn't necessarily make an issue a known error."]
+  },
+  {
+    "question": "What does the 'Plan' value chain activity focus on?",
+    "choices": ["Ensuring continual improvement", "Designing and developing new services", "Creating and managing plans", "Building relationships with stakeholders"],
+    "correctIndex": 2,
+    "explanations": ["While continual improvement is important, the 'Plan' activity specifically focuses on planning.", "Designing and developing services is more aligned with 'Design and Transition'.", "Correct answer.", "Building relationships is more aligned with the 'Engage' activity."]
+  },
+  {
+    "question": "What is the primary purpose of ITIL?",
+    "choices": ["To set up IT governance", "To provide a set of best practices for IT service management", "To provide guidelines for programming", "To assist in the hiring of IT professionals"],
+    "correctIndex": 1,
+    "explanations": ["While IT governance is a part, ITIL primarily focuses on providing best practices for ITSM.", "Correct answer.", "ITIL is not focused on programming guidelines.", "ITIL does not primarily focus on HR aspects of IT."]
+  },
+  {
+    "question": "Who benefits from a service level agreement (SLA)?",
+    "choices": ["Only the service provider", "Only the service consumer", "Both the service provider and service consumer", "Neither the service provider nor service consumer"],
+    "correctIndex": 2,
+    "explanations": ["SLAs set expectations and standards that benefit both parties, not just the provider.", "SLAs set expectations and standards that benefit both parties, not just the consumer.", "Correct answer.", "SLAs are designed to benefit both parties by setting clear expectations."]
+  },
+  {
+    "question": "Which value chain activity focuses on the establishment of new services?",
+    "choices": ["Obtain/Build", "Design and Transition", "Deliver and Support", "Engage"],
+    "correctIndex": 1,
+    "explanations": ["Obtain/Build is primarily about acquiring or developing components, not establishing new services.", "Correct answer.", "Deliver and Support focuses on service operation and not the establishment of new services.", "Engage is more about managing stakeholder relationships rather than establishing new services."]
+  },
+  {
+    "question": "Which ITIL v4 Specialist module is focused on high-speed IT practices?",
+    "choices": ["Drive Stakeholder Value", "Create, Deliver and Support", "High Velocity IT", "Direct, Plan and Improve"],
+    "correctIndex": 2,
+    "explanations": ["Drive Stakeholder Value is focused on interactions with stakeholders, not high-speed IT.", "Create, Deliver and Support is more general and not specifically focused on high-speed IT practices.", "Correct answer.", "Direct, Plan and Improve focuses on governance and improvement, not high-speed IT practices."]
+  },
+  {
+    "question": "What is the primary role of the 'Service Desk'?",
+    "choices": ["To handle financial aspects", "To act as a single point of contact for the service consumers", "To plan for future growth", "To create new services"],
+    "correctIndex": 1,
+    "explanations": ["The Service Desk is not primarily responsible for handling financial aspects.", "Correct answer.", "Planning for future growth is not the primary responsibility of the Service Desk.", "Creating new services is not the primary role of the Service Desk."]
+  },
+  {
+    "question": "What are the Four Dimensions of Service Management according to ITIL v4?",
+    "choices": ["People, Process, Technology, Partners", "People, Information, Partners, Value Streams", "Organizations and People, Information and Technology, Partners and Suppliers, Value Streams and Processes", "Management, Technology, Governance, Automation"],
+    "correctIndex": 2,
+    "explanations": ["These categories are too general and don't capture the full range of the Four Dimensions in ITIL v4.", "This answer lacks the specifics provided in the correct answer.", "Correct answer.", "Management, Technology, Governance, and Automation are elements within the dimensions but not the dimensions themselves."]
+  },
+  {
+    "question": "Which of the following is NOT a key component of the ITIL Service Value System?",
+    "choices": ["Governance", "Service Value Chain", "Continual Improvement", "Digital Transformation"],
+    "correctIndex": 3,
+    "explanations": ["Governance is a key component that provides the framework for decision-making.", "Service Value Chain is the set of interconnected activities that, when sequenced in the right way, provides value.", "Continual Improvement is indeed a key part of the ITIL Service Value System.", "Correct answer."]
+  },
+  {
+    "question": "In which ITIL v4 module would you learn about planning and continual improvement?",
+    "choices": ["High Velocity IT", "Create, Deliver and Support", "Drive Stakeholder Value", "Direct, Plan and Improve"],
+    "correctIndex": 3,
+    "explanations": ["High Velocity IT focuses on high-speed practices, not on planning and continual improvement.", "Create, Deliver and Support focuses on service value stream creation, not primarily on planning and improvement.", "Drive Stakeholder Value focuses on relationships with stakeholders, not on planning and continual improvement.", "Correct answer."]
+  },
+  {
+    "question": "What is a 'Change' as defined in ITIL v4?",
+    "choices": ["The addition, modification, or removal of anything that could have a direct or indirect effect on services", "The addition of a new service", "The removal of an outdated service", "Modification in the codebase of an application"],
+    "correctIndex": 0,
+    "explanations": ["Correct answer.", "Adding a new service is an example of a change, but it's not the complete definition.", "The removal of a service is an example but doesn't capture the full scope of what 'Change' means in ITIL.", "Modification in codebase is a type of change, but the definition is broader."]
+  },
+  {
+    "question": "Which value chain activity is primarily involved with demand management?",
+    "choices": ["Obtain/Build", "Design and Transition", "Engage", "Deliver and Support"],
+    "correctIndex": 2,
+    "explanations": ["Obtain/Build is more focused on acquiring or creating components for services.", "Design and Transition focuses more on the establishment of new services.", "Correct answer.", "Deliver and Support focuses on operational aspects rather than demand management."]
+  },
+  {
+    "question": "What does the 'Utility' of a service refer to?",
+    "choices": ["The ability to deliver value without ownership", "The overall value proposition of the service", "The functionality offered by a product or service to meet a particular need", "The assurance that a product or service will meet agreed requirements"],
+    "correctIndex": 2,
+    "explanations": ["Utility is more about functionality, not about value without ownership.", "Utility is specifically the functionality, not the overall value proposition.", "Correct answer.", "Assurance relates more to 'Warranty' in ITIL v4, not 'Utility'."]
+  },
+  {
+    "question": "What is 'Warranty' in the context of services in ITIL v4?",
+    "choices": ["Functionality and features offered by the service", "A guarantee that service will meet agreed requirements", "Price of the service", "Consumer's perception of the value of the service"],
+    "correctIndex": 1,
+    "explanations": ["Functionality and features relate more to 'Utility', not 'Warranty'.", "Correct answer.", "Price is not what is guaranteed in 'Warranty' in the context of ITIL v4.", "Consumer's perception of value is not what 'Warranty' guarantees."]
+  },
+  {
+    "question": "What is the role of 'Continual Improvement' in the Service Value System?",
+    "choices": ["To provide governance only", "To continually improve services and practices", "To only improve service delivery", "To focus only on technological improvements"],
+    "correctIndex": 1,
+    "explanations": ["Providing governance is not the sole purpose of Continual Improvement; it aims for broader improvements.", "Correct answer.", "Improving service delivery is just a part of its role, not the entire scope.", "Technological improvements are a part, but Continual Improvement encompasses more."]
+  },
+  {
+    "question": "Which practice is primarily concerned with making new and changed services available for use?",
+    "choices": ["Release Management", "Change Enablement", "Incident Management", "Service Request Management"],
+    "correctIndex": 0,
+    "explanations": ["Correct answer.", "Change Enablement is more about enabling changes in a controlled manner, not necessarily making them available for use.", "Incident Management is focused on resolving incidents, not on making new services available.", "Service Request Management is about fulfilling service requests, not making new or changed services available."]
+  },
+  {
+    "question": "What does a 'service offering' include?",
+    "choices": ["Only the technical solutions", "Only the price and contract terms", "Both the technical solutions and price", "Both the technical solutions and contract terms"],
+    "correctIndex": 3,
+    "explanations": ["A service offering includes more than just the technical aspects.", "It also includes more than just the price and contract terms.", "Price alone without contract terms is not sufficient.", "Correct answer."]
+  },
+  {
+    "question": "What is the primary role of the 'Service Desk'?",
+    "choices": ["To handle financial aspects", "To act as a single point of contact for the service consumers", "To plan for future growth", "To create new services"],
+    "correctIndex": 1,
+    "explanations": ["The Service Desk is not primarily responsible for handling financial aspects.", "Correct answer.", "Planning for future growth is not the primary responsibility of the Service Desk.", "Creating new services is not the primary role of the Service Desk."]
+  },
+  {
+    "question": "What would you use a 'Service Map' for?",
+    "choices": ["To resolve incidents", "To understand how a service delivers value", "To change the service", "To assess the financial value of the service"],
+    "correctIndex": 1,
+    "explanations": ["Service Maps are not primarily used for incident resolution.", "Correct answer.", "Changing the service is not the primary use-case for a Service Map.", "Assessing financial value is not the main focus of a Service Map."]
+  },
+  {
+    "question": "What type of practice is 'Incident Management' classified as?",
+    "choices": ["Service Management Practice", "General Management Practice", "Technical Management Practice", "Value Chain Activity"],
+    "correctIndex": 0,
+    "explanations": ["Correct answer.", "Incident Management is not a General Management Practice in ITIL.", "It is not considered a Technical Management Practice.", "It is a practice, not a Value Chain Activity."]
+  },
+  {
+    "question": "What is the main focus of the 'Engage' value chain activity?",
+    "choices": ["Building and coding services", "Managing relationships with stakeholders", "Delivering and supporting services", "Improving services continuously"],
+    "correctIndex": 1,
+    "explanations": ["Building and coding is not the focus of 'Engage'.", "Correct answer.", "Delivery and support are not the main focus of 'Engage'.", "Continuous improvement is not the main focus of 'Engage'."]
+  },
+  {
+    "question": "Which ITIL principle advises to focus on value?",
+    "choices": ["Start Where You Are", "Keep it Simple and Practical", "Optimize and Automate", "Focus on Value"],
+    "correctIndex": 3,
+    "explanations": ["'Start Where You Are' advises not to start from scratch, but it doesn't primarily focus on value.", "Correct answer.", "'Keep it Simple and Practical' is about simplicity and practicality, not specifically about focusing on value.", "'Optimize and Automate' is about improving efficiency, not necessarily focusing on value."]
+  },
+  {
+    "question": "In which value chain activity would 'Monitoring and Event Management' typically be used?",
+    "choices": ["Design and Transition", "Deliver and Support", "Plan", "Engage"],
+    "correctIndex": 1,
+    "explanations": ["Design and Transition mainly deals with establishing new services.", "Correct answer.", "Plan is more about strategic planning and not particularly about monitoring.", "Engage is more about stakeholder engagement, not monitoring and event management."]
+  },
+  {
+    "question": "What is 'Service Configuration Management' primarily concerned with?",
+    "choices": ["Implementing changes", "Monitoring services", "Ensuring that accurate and reliable information is available", "Interacting with stakeholders"],
+    "correctIndex": 2,
+    "explanations": ["Implementing changes is not the primary focus of Service Configuration Management.", "Correct answer.", "Monitoring services is also not the primary concern of this practice.", "Stakeholder interaction is not the main focus of Service Configuration Management."]
+  },
+  {
+    "question": "Which ITIL practice aims at restoring normal service operation as quickly as possible?",
+    "choices": ["Change Enablement", "Incident Management", "Problem Management", "Service Request Management"],
+    "correctIndex": 1,
+    "explanations": ["Change Enablement is more about managing changes rather than restoring service.", "Correct answer.", "Problem Management focuses on identifying the root causes of problems, not necessarily quick restoration of service.", "Service Request Management is more about fulfilling requests and not primarily about restoring service."]
+  },
+  {
+    "question": "Which ITIL practice is primarily responsible for collecting information, analyzing it, and taking appropriate actions?",
+    "choices": ["Monitoring and Event Management", "Information Security Management", "Incident Management", "Problem Management"],
+    "correctIndex": 0,
+    "explanations": ["Correct answer.", "Information Security Management focuses on protecting information, not collecting and analyzing operational data.", "Incident Management is more concerned with resolving incidents than continuous monitoring and analysis.", "Problem Management focuses on identifying root causes of incidents, not real-time monitoring and analysis."]
+  },
+  {
+    "question": "What is the purpose of the 'Availability Management' practice?",
+    "choices": ["To ensure services deliver value to customers", "To ensure that services are available when needed", "To ensure that all changes are assessed, authorized, and implemented", "To ensure incidents are resolved quickly"],
+    "correctIndex": 1,
+    "explanations": ["While delivering value is important, the specific focus of Availability Management is on service availability.", "Correct answer.", "Change assessment and authorization are not the primary purposes of Availability Management.", "Quick incident resolution is more the concern of Incident Management, not Availability Management."]
+  },
+  {
+    "question": "Which ITIL principle advises to use existing work, resources, and experiences?",
+    "choices": ["Start Where You Are", "Collaborate and Promote Visibility", "Progress Iteratively with Feedback", "Keep it Simple and Practical"],
+    "correctIndex": 0,
+    "explanations": ["Correct answer.", "This principle focuses more on collaboration and visibility, not specifically on using existing resources.", "This advises on taking an iterative approach with feedback, not particularly on using existing resources.", "This principle is about keeping things simple and practical, not specifically using what already exists."]
+  },
+  {
+    "question": "What is the primary focus of the 'Service Level Management' practice?",
+    "choices": ["Ensuring services meet agreed quality levels", "Managing the lifecycle of all changes", "Ensuring the organization's information is secure", "Providing a clear and simple route for users to request services"],
+    "correctIndex": 0,
+    "explanations": ["Correct answer.", "Change lifecycle management is not the focus of Service Level Management.", "Information security is not the main concern of Service Level Management.", "While important, providing a route for service requests is not the primary focus of Service Level Management."]
+  },
+  {
+    "question": "Which practice deals with the reduction of the likelihood and impact of incidents by identifying the causes?",
+    "choices": ["Incident Management", "Problem Management", "Availability Management", "Change Enablement"],
+    "correctIndex": 1,
+    "explanations": ["Incident Management focuses on resolving incidents, not necessarily identifying root causes.", "Correct answer.", "Availability Management is more concerned with ensuring services are available.", "Change Enablement focuses on managing changes, not identifying root causes of incidents."]
+  },
+  {
+    "question": "What is a 'Service Portfolio'?",
+    "choices": ["A collection of incidents", "A complete set of services managed by a service provider", "A detailed description of a single service", "A collection of service requests"],
+    "correctIndex": 1,
+    "explanations": ["A Service Portfolio is not a collection of incidents.", "Correct answer.", "A Service Portfolio represents multiple services, not just a single one.", "It is not simply a collection of service requests."]
+  },
+  {
+    "question": "Which ITIL principle promotes the use of regular incremental improvements to services?",
+    "choices": ["Collaborate and Promote Visibility", "Progress Iteratively with Feedback", "Focus on Value", "Optimize and Automate"],
+    "correctIndex": 1,
+    "explanations": ["This principle is more about collaboration and visibility, not specifically incremental improvements.", "Correct answer.", "Focusing on value doesn't necessarily involve incremental improvements.", "While optimization is key, this principle doesn't specifically mention incremental improvements."]
+  },
+  {
+    "question": "What is the purpose of 'Change Enablement' practice?",
+    "choices": ["To maximize the number of successful changes", "To restore service operation as quickly as possible", "To ensure information is secure", "To design and transition all new and changed services into operations"],
+    "correctIndex": 0,
+    "explanations": ["Correct answer.", "Restoring service operation quickly is more aligned with Incident Management.", "Information security is not the primary focus of Change Enablement.", "While part of the process, the primary aim is not just to design and transition but to ensure changes are successful."]
+  },
+  {
+    "question": "Which value chain activity is most concerned with service consumption?",
+    "choices": ["Plan", "Obtain/Build", "Design and Transition", "Engage"],
+    "correctIndex": 3,
+    "explanations": ["Planning is more about strategizing than focusing on consumption.", "Obtain/Build is more about the creation and building of services.", "Design and Transition focuses more on implementing and transitioning new or changed services.", "Correct answer."]
+  },
+  {
+    "question": "What is the primary role of 'Information Security Management'?",
+    "choices": ["To protect the information needed by the organization to conduct its business", "To manage service levels with suppliers", "To manage the lifecycle of all service requests", "To develop new services"],
+    "correctIndex": 0,
+    "explanations": ["Correct answer.", "Supplier service levels are not the primary focus of Information Security Management.", "Lifecycle management of service requests is not the main focus.", "Developing new services is not the primary role of Information Security Management."]
+  }
+]
+

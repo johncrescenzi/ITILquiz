@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html data-theme="forest">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ITILv4 Quiz</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.2/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <!--Loader-->
+  <div id="loader">
+    <span class="loading loading-ring loading-lg"></span>
+  </div>
+
+  <div id="stats" class="flex w-full">
+    <div class="grid h-20 flex-grow card bg-base-300 rounded-box place-items-center text-primary statPercentage">
+      <h2></h2>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="19" y1="5" x2="5" y2="19"></line>
+        <circle cx="6.5" cy="6.5" r="2.5"></circle>
+        <circle cx="17.5" cy="17.5" r="2.5"></circle>
+      </svg>
+    </div>
+    <div class="divider divider-horizontal"></div>
+    <div class="grid h-20 flex-grow card bg-base-300 rounded-box place-items-center text-secondary statCorrect">
+      <h2></h2>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+      </svg>
+    </div>
+    <div class="divider divider-horizontal"></div>
+    <div class="grid h-20 flex-grow card bg-base-300 rounded-box place-items-center text-accent statQuestionsRemaining">
+      <h2></h2>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"></circle>
+        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+      </svg>
+    </div>
+  </div>
+
+
+  <!--Progress Bar-->
+  <div class="progress-wrapper flex-10">
+    <progress class="progress progress-primary" value="0" max="100"></progress>
+  </div>
+
+  <!--Quiz-->
+  <div class="quizSection">
+    <div>
+      <h1 class="justify-content text-xl question"></h1>
+      <button id="choice0" class="btn btn-block btn-neutral btn-choice"></button>
+      <button id="choice1" class="btn btn-block btn-primary btn-choice"></button>
+      <button id="choice2" class="btn btn-block btn-secondary btn-choice"></button>
+      <button id="choice3" class="btn btn-block btn-accent btn-choice"></button>
+    </div>
+  </div>
+
+  <!--Alerts-->
+  <div class="alert alert-success" style="display:none;">
+    <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+    </svg>
+    <span>Correct!</span>
+    <span></span>
+    <div>
+      <button class="btn btn-active next-button">Next</button>
+    </div>
+  </div>
+  <div class="alert alert-info" style="display:none;">
+    <span class="explanation"></span>
+    <div>
+      <button class="btn btn-active next-button">Next</button>
+    </div>
+  </div>
+
+  <!--Theme Button-->
+  <div class="dropdown dropdown-top fixed">
+    <label tabindex="0" id="dropdownBtn" class="btn m-1">Themes</label>
+    <ul tabindex="0" id="themeDropdown" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+      <li><a data-theme="cupcake">Cupcake</a></li>
+      <li><a data-theme="bumblebee">Bumblebee</a></li>
+      <li><a data-theme="emerald">Emerald</a></li>
+      <li><a data-theme="corporate">Corporate</a></li>
+      <li><a data-theme="synthwave">Synthwave</a></li>
+      <li><a data-theme="valentine">Valentine</a></li>
+      <li><a data-theme="halloween">Halloween</a></li>
+      <li><a data-theme="garden">Garden</a></li>
+      <li><a data-theme="forest">Forest</a></li>
+      <li><a data-theme="aqua">Aqua</a></li>
+      <li><a data-theme="lofi">Lofi</a></li>
+      <li><a data-theme="pastel">Pastel</a></li>
+      <li><a data-theme="fantasy">Fantasy</a></li>
+      <li><a data-theme="wireframe">Wireframe</a></li>
+      <li><a data-theme="black">Black</a></li>
+      <li><a data-theme="luxury">Luxury</a></li>
+      <li><a data-theme="dracula">Dracula</a></li>
+      <li><a data-theme="cmyk">CMYK</a></li>
+    </ul>
+  </div>
+  <script src="script.js"></script>
+  <script src="quiz.js"></script>
+  <script src="scores.js"></script>
+</body>
+
+</html>
